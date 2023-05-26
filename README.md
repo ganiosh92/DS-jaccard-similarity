@@ -19,3 +19,7 @@ Then we calculate the Jaccard Similarity between L1 and L2 by calculating the nu
 So, we can conclude by saying that Locations L1 and L2 are not that similar. But that is not enough because how else do we interpret a Jaccard Similarity of 0.33? Well, here's the thing Jaccard distance is more useful when it is used to compare the an item to more than or equal to two items. In this case it would be another location L3 which has a certain set of activities as well:
 
 - L3 - {Haunted House, Skiing, Swimming, Shopping, Jazz}
+- L1 ∩ L3 = {Skiing, Swimming, Shopping} => n(L1 ∩ L3) = 3
+- L1 ∪ L3 = {Hiking, Skiing, Swimming, Shopping, Haunted-House, Jazz} => n(L1 ∪ L3) = 6
+- Jaccard Similarity = n(L1 ∩ L3) / n(L1 ∪ L3) = 1/2 ~ 0.50
+- Jaccard Distance = 1 - (Jaccard Similarity) = 0.50
