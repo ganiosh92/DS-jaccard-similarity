@@ -23,3 +23,5 @@ So, we can conclude by saying that Locations L1 and L2 are not that similar. But
 - L1 ∪ L3 = {Hiking, Skiing, Swimming, Shopping, Haunted-House, Jazz} => n(L1 ∪ L3) = 6
 - Jaccard Similarity = n(L1 ∩ L3) / n(L1 ∪ L3) = 1/2 ~ 0.50
 - Jaccard Distance = 1 - (Jaccard Similarity) = 0.50
+
+Now the Jaccard Distance makes more sense. We know that in terms of similarity location L1 is closer to location L3 compared to location L2 (Jaccard distances for L3 and L2 are 0.50 and 0.67 respectively)
