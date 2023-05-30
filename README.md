@@ -4,7 +4,10 @@ code to compute Jaccard's distance to compare similarity between two items based
 # So what is Jaccard Similarity and why do we need it?
 There are often times when we would like to compare two things based on their non-numeric characteristics. Like two shirts that have different colors or patterns or two destinations that offer same or different types of visitor entertainment. We come across cases like that mostly in Machine Learning.
 
-So the question is how do we go about making these comparisons? The answer lies in a measure called Jaccard Distance. Jaccard distance helps us compare two things based on the information we about their categorical attributes. For example, if we have two locations L1 and L2 and the activities they offer are as follows:
+So the question is how do we go about making these comparisons? The answer lies in a measure called Jaccard Distance. Jaccard distance helps us compare two things based on the information we about their categorical attributes.
+
+# Example
+For example, if we have two locations L1 and L2 and the activities they offer are as follows:
 
 - L1 - {Hiking, Skiing, Swimming, Shopping}
 - L2 - {Hiking, Shopping, Scuba-Diving, luxury-dining}
