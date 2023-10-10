@@ -13,9 +13,7 @@ Then we calculate the Jaccard Similarity between L1 and L2 by calculating the nu
 
 - L1 ∩ L2 = {Hiking, Shopping} => n(L1 ∩ L2) = 2
 - L1 ∪ L2 = {Hiking, Skiing, Swimming, Shopping, Scuba-Diving, Luxury-Dining} => n(L1 ∪ L2) = 6
-
-Jaccard Similarity = n(L1 ∩ L2) / n(L1 ∪ L2) = 1/3 ~ 0.33
-
-Jaccard Distance = 1 - (Jaccard Similarity) = 0.67
+- Jaccard Similarity = n(L1 ∩ L2) / n(L1 ∪ L2) = 1/3 ~ 0.33
+- Jaccard Distance = 1 - (Jaccard Similarity) = 0.67
 
 
